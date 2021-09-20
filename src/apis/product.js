@@ -20,20 +20,20 @@ export const getListProducts = (params = {}) => {
 };
 
 export const getListUsers = (params = {}) => {
-  return axiosService.get(`https://ninhnam.github.io/webApi/users.json`);
+  return axiosService.get(`https://6112b10289c6d00017ac04c4.mockapi.io/api/v1/users~`);
 };
 
 // http://localhost:3000/tasks METHOD:POST
 export const addTask = (data) => {
-  return axiosService.post(`https://ninhnam.github.io/webApi/users.json`, data);
+  return axiosService.post(`https://6112b10289c6d00017ac04c4.mockapi.io/api/v1/users~`, data);
 };
 
 // http://localhost:3000/tasks METHOD:PUT
 export const updateCart = (data, ID) => {
-  return axiosService.put(`https://ninhnam.github.io/webApi/users.json/${ID}`, data);
+  return axiosService.put(`https://6112b10289c6d00017ac04c4.mockapi.io/api/v1/users~/${ID}`, data);
 };
 
 // http://localhost:3000/tasks METHOD:DELETE
 export const deleteTask = (ID) => {
-  return axiosService.delete(`https://ninhnam.github.io/webApi/users.json/${ID}`);
+  return axiosService.delete(`https://6112b10289c6d00017ac04c4.mockapi.io/api/v1/users~/${ID}`);
 };
